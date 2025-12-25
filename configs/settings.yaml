@@ -1,0 +1,16 @@
+# System Configuration
+# Bu dosya sistem parametrelerini dinamik olarak yönetmek içindir.
+
+system:
+  name: "GreenArchitect-TR Command Center"
+  version: "1.0.0"
+  location: "Trabzon/Of Hub"
+
+iot:
+  broker: "mqtt.elite-energy.local"
+  port: 1883
+  timeout: 60
+
+analytics:
+  forecasting_window: 24 # Saat
+  threshold_alert: 100 # kW
